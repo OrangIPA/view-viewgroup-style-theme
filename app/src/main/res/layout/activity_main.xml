@@ -150,6 +150,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -158,6 +159,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -167,6 +169,7 @@
             </TableRow>
         </TableLayout>
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dijual oleh"
@@ -194,6 +197,7 @@
 
 
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/profile_image"
